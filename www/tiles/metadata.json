@@ -1,0 +1,14 @@
+{
+"name": "build/www/tiles",
+"description": "build/www/tiles",
+"version": "2",
+"minzoom": "5",
+"maxzoom": "14",
+"center": "12.601318,55.683778,14",
+"bounds": "12.452998,55.612853,12.734255,55.732712",
+"type": "overlay",
+"format": "pbf",
+"generator": "tippecanoe v1.36.0",
+"generator_options": "tippecanoe --no-feature-limit --no-tile-size-limit --exclude-all '--minimum-zoom=5' '--maximum-zoom=g' --output-to-directory build/www/tiles ./kom.json",
+"json": "{\"vector_layers\": [ { \"id\": \"kom\", \"description\": \"\", \"minzoom\": 5, \"maxzoom\": 14, \"fields\": {} } ],\"tilestats\": {\"layerCount\": 1,\"layers\": [{\"layer\": \"kom\",\"count\": 1,\"geometry\": \"Polygon\",\"attributeCount\": 0,\"attributes\": []}]}}"
+}
